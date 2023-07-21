@@ -17,17 +17,18 @@
 
 <body class="container">
 
-    <nav class="navbar navbar-default navbar-fixed-top row top">
+    <nav class="navbar row">
         <div class="col-md-3"> <img src="./images/logo.png" class="logo" /> </div>
         <div class="col-md-2"> <a href="#mission"> Mission </a> </div>
         <div class="col-md-2"> <a href="#vision"> Vision </a> </div>
         <div class="col-md-2"> <a href="#services"> Services </a> </div>
         <div class="col-md-2">
-            <div class="btn btn-outline-info p-2"> <span class="p-2"> Contact us </span> </div>
+            <div class="btn btn-outline-info p-2" onclick="javascript:location.href='#contacts';"> <span class="p-2">
+                    Contact us </span> </div>
         </div>
     </nav>
 
-    <div id="mission" class="section row mt-5">
+    <div id="mission" class="section row mt-5 mb-2">
 
         <div class="col-md-5">
             <img src="./images/woman (1).png" style="height: 60vh; " />
@@ -45,19 +46,146 @@
                 </span>
             </div>
 
-            <div class="btn btn-outline-info p-3 mt-4"> <span class="p-3"> Get in touch </span> </div>
+            <div class="btn btn-outline-info p-3 mt-4" onclick="javascript:location.href='#contacts';"> <span
+                    class="p-3"> Get in touch </span> </div>
         </div>
 
     </div>
 
-    <div id="vision" class="section row mt-5">
+    <div id="vision" class="section row mt-5 mb-5 p-2">
+        <div class="col-md-7">
+            <div>
+                <h1> Our Vision </h1>
+            </div>
+            <div> <span class="description"> InLight envisions creating innovative, high-quality software solutions that
+                    prioritize clients' unique needs. They stay ahead in technology, using cutting-edge tools for
+                    scalable and secure products. With a user-centric approach, they ensure exceptional experiences and
+                    seamless interactions. Collaboration and teamwork drive continuous improvement. They may also focus
+                    on social impact and ethical considerations. Ultimately, InLight aims to deliver reliable,
+                    efficient, and future-proof software solutions exceeding client expectations.</span></div>
+
+            <div class="row mt-3">
+                <div class="col-md-2 text-center mt-3">
+                    <div class="item-box p-2">
+                        <div> <img class="icon" src="./icons/noun-customer-4067437-45DEE1.svg"></div>
+                        <div>Client-Centric Approach</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center mt-3">
+                    <div class="item-box p-2">
+                        <div> <img class="icon" src="./icons/noun-quality-1646496-45DEE1.svg"></div>
+                        <div>Quality and Reliability</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center mt-3">
+                    <div class="item-box p-2">
+                        <div> <img class="icon" src="./icons/noun-technology-5894438-45DEE1.svg"></div>
+                        <div>Cutting-Edge Technology</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center mt-3">
+                    <div class="item-box p-2">
+                        <div> <img class="icon" src="./icons/noun-collaboration-5438620-45DEE1.svg"></div>
+                        <div>Collaboration and Teamwork</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center mt-3">
+                    <div class="item-box p-2">
+                        <div> <img class="icon" src="./icons/noun-improvement-5894440-45DEE1.svg"></div>
+                        <div>Continuous Improvement</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center mt-3">
+                    <div class="item-box p-2">
+                        <div> <img class="icon" src="./icons/noun-user-experience-2077442-45DEE1.svg"></div>
+                        <div>User Experience</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
         <div class="col-md-5">
-            <img src="./images/man.png" style="height: 60vh; " />
+            <div class="mt-2">
+                <img src="./images/man.png" style="height: 50vh;" />
+            </div>
         </div>
-                
-                
-          
+
+
     </div>
+
+    <div id="services" class="section mt-5">
+        <div class="text-center">
+            <h1> Our Services </h1>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4  text-center mb-2">
+                <div class="mb-3 mt-2"> <span class="c2"> Engineering as a service </span></div>
+                <div class="item-box p-2 mb-3">
+                    <img src="./images/np_Business woman working late on laptop_42M1q5_free.jpg"
+                        style="height: 40vh; width: 100%;" />
+                </div>
+            </div>
+
+            <div class="col-md-4  text-center mb-2">
+                <div class="mb-3 mt-2"> <span class="c2"> Smart governance solutions</span></div>
+                <div class="item-box p-2 mb-3">
+                    <img src="./images/9A806A87-57E0-41D2-BC35-64B1B4FC9C61.jpg" style="height: 40vh; width: 100%;" />
+                </div>
+            </div>
+
+            <div class="col-md-4  text-center mb-2">
+                <div class="mb-3 mt-2"> <span class="c2"> Digital design studio </span></div>
+                <div class="item-box p-2 mb-3">
+                    <img src="./images/94DFFCB1-EB6A-4942-A46A-E10B8C2AEC99.jpg" style="height: 40vh; width: 100%;" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contacts" class="section mt-5 p-5">
+        <div class="item-box p-3">
+            <div class="">
+                <h1> Contact us</h1>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-1 " style="border-right: 1px solid rgb(3, 190, 207);">
+                    <div>
+                        <img src="./icons/noun-email-5791449-FFFFFF.svg" class="icon" />
+                    </div>
+                </div>
+                <div class="col-md-6 p-4">
+                    <div> Drop us an email and we will get back to you:</div>
+                    <div>
+                        <strong>Email:</strong> <span>info@inlight.solutions</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="mt-5">
+        <hr style="border: 1px solid rgb(3, 190, 207);">
+        <div class="row">
+            <div class="col-md-4 ">
+                <img src="./images/logo.png" class="logo" />
+            </div>
+            <div class="col-md-5 text-center ">
+                <br>
+                <span> &copy; 2023 inLight Solutions </span> <br>
+                <span>www.inlight.solutions</span>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
